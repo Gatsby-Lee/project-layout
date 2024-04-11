@@ -1,3 +1,4 @@
+# https://python-poetry.org/docs/pyproject/
 [tool.poetry]
 name = "pybend"
 version = "0.1.0"
