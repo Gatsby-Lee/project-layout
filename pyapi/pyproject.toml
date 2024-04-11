@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyapi"
+version = "0.1.0"
+description = ""
+authors = ["Gatsby Lee <null@gmail.com>"]
+readme = ["README.rst"]
+packages = [{include = "api"}] # dummy
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
